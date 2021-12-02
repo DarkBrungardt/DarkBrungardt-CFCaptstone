@@ -1,0 +1,263 @@
+body {
+    background-color: #454545;
+    border: thick;
+    /* box-shadow: inset 0px -26px 79px 0px rgba(0, 0, 0, 0.45); */
+    background-image: linear-gradient(to right, gray , black);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+   
+    
+}
+
+.navigation-wrapper {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+.class-section {
+    display: flex;
+    width: 1020px;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.evil-section {
+    display: flex;
+    width: -220px;
+    color: yellow;
+    position: relative;
+    left: 135px;
+    font-size: 20px;
+    
+    
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        top: 25px;
+        left: 40px;
+        color: grey;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #454545;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+.icon-section {
+    color: #454545;
+    width: 65px;
+    
+}
+
+
+
+
+.button-section {
+    border: none;
+    color: #454545;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border-spacing: 30px;
+    border-radius: 10px;
+    
+}
+
+#button1 {
+    background-color: #454545;
+    color: white;
+    padding: 15px;
+    justify-content: space-between;
+    margin: 1em ;
+    
+ 
+    
+    
+}
+
+#button2 {
+    background-color: #454545;
+    color: white;
+    padding: 15px;
+    float: left;
+}
+
+
+
+
+
+
+.banner-image {
+    background-image: url(../images/codepen-wordmark-display-inside-white@10x.png);
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    background-position: center;
+    top: 50px;
+    right: 110px;
+    
+    
+}
+
+
+
+
+.hero-section  {
+    color: white;
+    display: flex;
+   flex-wrap: wrap;
+   max-width: 600px;
+   font-size: 30px;
+   position: relative;
+   left: 125px;
+   top: 30px;
+   font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.hero-section2  {
+    color: white;
+    display: flex;
+   flex-wrap: wrap;
+   max-width: 600px;
+   font-size: 23px;
+   position: relative;
+   left: 125px;
+   top: 30px;
+   color: white;
+   font-family: 'Mochiy Pop P One', sans-serif;
+  
+}
+
+img
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    right: 0px;
+    position: relative;
+}
+
+
+.codepen-section {
+    position: absolute;
+    right: 0px;
+    color: lightblue;
+    width: 500px;
+    top: 110px;
+    right: 85px;
+    
+}
+
+.img-code {
+   width: 600px;
+    height: 450px;
+    /* background-image: url(images/CodePen.png); */
+    background-size: cover;
+   position: absolute;
+    top: 65px;
+    right: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sansa+Pro:wght@600&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 4px;
+    
+}
+
+.container {
+    display: flex;
+    left: 30px;
+    
+   
+}
+
+.btn-1 {
+    width: 350px;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: rgb(2, 128, 13);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    position: relative;
+    top: 40px;
+    left: 125px;
+}
+
+.btn-1:hover {
+    box-shadow: inset 400px 0 0 0 #f9e506;
+}
+
+.btn-2 {
+    width: 250px;
+    height: 80px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    position: relative;
+    top: 40px;
+    left: 160px;
+}
+
+.btn-2:hover {
+    box-shadow: inset 300px 0 0 0 #f9e506;
+}
+
+.footer-wrapper .btn-footer {
+  
+    display: flex;
+    
+}
+
+.footer-wrapper .btn-footer > button {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    padding: 10px;
+    border: 3px solid;
+    border-color:grey;
+    width: 100%;
+    background-color: #454545;
+    top: 95px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+
+
